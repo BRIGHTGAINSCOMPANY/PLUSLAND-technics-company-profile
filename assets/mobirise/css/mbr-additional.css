@@ -538,7 +538,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   color: #ffffff;
 }
 .nav-tabs .nav-link:not(.active) {
-  color: #232323;
+  color: #181818;
 }
 .alert-success {
   background-color: #70c770;
@@ -782,7 +782,7 @@ a {
 }
 .cid-uoI9iR5hea .dropdown-menu,
 .cid-uoI9iR5hea .navbar.opened {
-  background: #ffffff !important;
+  background: transparent !important;
 }
 .cid-uoI9iR5hea .nav-item:focus,
 .cid-uoI9iR5hea .nav-link:focus {

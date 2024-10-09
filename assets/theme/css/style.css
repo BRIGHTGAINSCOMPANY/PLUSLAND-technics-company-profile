@@ -222,8 +222,8 @@ iframe {
 
 .card-img {
   text-align: center;
-  flex-shrink: 0;
   -webkit-flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .media {
@@ -343,10 +343,10 @@ nav .mbr-section-btn {
 }
 
 .mbr-fullscreen {
-  display: flex;
+  display: -o-flex;
   display: -moz-flex;
   display: -ms-flex;
-  display: -o-flex;
+  display: flex;
   align-items: center;
   min-height: 100vh;
   padding-top: 3rem;
@@ -515,16 +515,16 @@ nav .mbr-section-btn {
 }
 .bg-gradient {
   background-size: 200% 200%;
-  animation: gradient-animation 5s infinite alternate;
   -webkit-animation: gradient-animation 5s infinite alternate;
+  animation: gradient-animation 5s infinite alternate;
 }
 
 .menu .navbar-brand {
   display: -webkit-flex;
 }
 .menu .navbar-brand span {
-  display: flex;
   display: -webkit-flex;
+  display: flex;
 }
 .menu .navbar-brand .navbar-caption-wrap {
   display: -webkit-flex;
